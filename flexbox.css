@@ -7,6 +7,147 @@
 .headder-parent{
     width: 100%;
     height: 150px;
+    margin: 0 auto;
     background-color: #9900cc;
     padding: 30px 20px;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.header-box1{
+    flex-basis: 140px;
+    height: 70px;
+    margin: 0 10px;
+    background-color: #DCC2FF;
+    margin-right: auto;
+}
+.header-box2{
+    flex-basis: 140px;
+    height: 70px;
+    margin: 0 10px;
+    background-color: #DCC2FF;
+}
+.header-box3{
+    flex-basis: 140px;
+    height: 70px;
+    margin: 0 10px;
+    background-color: #DCC2FF;
+}
+.header-box4{
+    flex-basis: 140px;
+    height: 70px;
+    margin: 0 10px;
+    background-color: #DCC2FF;
+}
+.header-box5{
+    flex-basis: 140px;
+    height: 70px;
+    margin: 0 10px;
+    background-color: #DCC2FF;
+}
+/*メイン*/
+.main-parent{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+/*メインの左側*/
+.main-left{
+    width: 300px;
+    height: auto;
+    background-color: #CBFFD3;
+}
+/*メインの右側*/
+.main-right{
+    max-width: 700px;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-box1{
+    flex-basis: 200px;
+    height: 130px;
+    margin: 10px;
+    background-color: #FFFF66;
+}
+.main-box2{
+    flex-basis: 200px;
+    height: 130px;
+    margin: 10px;
+    background-color: #FFFF66;
+}
+.main-box3{
+    flex-basis: 200px;
+    height: 130px;
+    margin: 10px;
+    background-color: #FFFF66;
+}
+.main-box4{
+    flex-basis: 200px;
+    height: 130px;
+    margin: 10px;
+    background-color: #FFFF66;
+}
+.main-box5{
+    flex-basis: 200px;
+    height: 130px;
+    margin: 10px;
+    background-color: #FFFF66;
+}
+.main-box6{
+    flex-basis: 200px;
+    height: 130px;
+    margin: 10px;
+    background-color: #FFFF66;
+}
+.main-box7{
+    flex-basis: 200px;
+    height: 130px;
+    margin: 10px;
+    background-color: #FFFF66;
+}
+.main-box8{
+    flex-basis: 200px;
+    height: 130px;
+    margin: 10px;
+    background-color: #FFFF66;
+}
+.main-box9{
+    flex-basis: 200px;
+    height: 130px;
+    margin: 10px;
+    background-color: #FFFF66;
+}
+
+.footer-parent{
+    width: 100%;
+    padding: 20px;
+    background-color: #66CCFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-box1{
+    flex-basis: 45%;
+    max-width: 600px;
+    height: 40px;
+    margin: 10px;
+    background-color: #C2EEFF;
+}
+.footer-box2{
+    flex-basis: 45%;
+    max-width: 600px;
+    height: 40px;
+    margin: 10px;
+    background-color: #C2EEFF;
+}
+.footer-box3{
+    flex-basis: 45%;
+    max-width: 600px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: #C2EEFF;
 }
